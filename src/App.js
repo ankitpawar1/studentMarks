@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const data = [
   {
     id: 1,
-    name: "Jagdish Ramchandra Dusane",
+    name: "Jagdish Dusane",
     physics: 100,
     chemistry: 100,
     mathematics: 100,
@@ -20,14 +20,14 @@ const data = [
   },
   {
     id: 3,
-    name: "Jagdish Ramchandra Dusane",
+    name: "Jagdish Dusane",
     physics: 99,
     chemistry: 100,
     mathematics: 100,
   },
   {
     id: 4,
-    name: "Jagdish Ramchandra Dusane",
+    name: "Jagdish Dusane",
     physics: 100,
     chemistry: 100,
     mathematics: 100,

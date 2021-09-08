@@ -8,10 +8,10 @@ const StudentsList = (props) => {
     <div>
       <div className="students-list">
         <div className="name">{props.name}</div>
-        <div>{props.physics}</div>
-        <div>{props.chemistry}</div>
-        <div>{props.mathematics}</div>
-        <div>{sum}</div>
+        <div className="seep">{props.physics}</div>
+        <div className="seep">{props.chemistry}</div>
+        <div className="seep">{props.mathematics}</div>
+        <div className="seep">{sum}</div>
       </div>
     </div>
   );

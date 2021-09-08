@@ -7,6 +7,9 @@
   font-size: 1rem;
 }
 .name {
-  width: 20rem;
+  width: 9rem;
   font-weight: 700;
+}
+.check {
+  width: 4rem;
 }

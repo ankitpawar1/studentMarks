@@ -8,3 +8,9 @@
   text-align: center;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
+
+@media (max-width: 580px) {
+  .students {
+    width: 20rem;
+  }
+}

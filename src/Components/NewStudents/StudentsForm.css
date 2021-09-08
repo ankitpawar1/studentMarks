@@ -17,10 +17,17 @@
   padding: 0.5rem;
   border-radius: 6px;
   border: 1px solid #ccc;
-  width: 20rem;
+  width: 19rem;
   max-width: 100%;
+  border: none;
+  border-bottom: 2px solid red;
 }
 
 .new-expense__actions {
   text-align: right;
 }
+/* @media (max-width: 580px) {
+  .new-expense__control input {
+    width: 19rem;
+  }
+} */
