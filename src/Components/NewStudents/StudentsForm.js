@@ -45,11 +45,18 @@ const StudentsForm = (props) => {
     <form onSubmit={changeHandler} className="new-expense__controls">
       <div className="new-expense__control">
         <label>Name</label>
-        <input type="text" onChange={nameHandler} value={enterName} />
+        <input type="text" onChange={nameHandler} value={enterName} required />
       </div>
       <div className="new-expense__control">
         <label>Physics</label>
-        <input type="number" onChange={physicsHandler} value={enterPhysics} />
+        <input
+          type="number"
+          onChange={physicsHandler}
+          value={enterPhysics}
+          min="0"
+          max="100"
+          required
+        />
       </div>
       <div className="new-expense__control">
         <label>Chemistry</label>
@@ -57,6 +64,9 @@ const StudentsForm = (props) => {
           type="number"
           onChange={chemistryHandler}
           value={enterChemistry}
+          min="0"
+          max="100"
+          required
         />
       </div>
       <div className="new-expense__control">
@@ -65,6 +75,9 @@ const StudentsForm = (props) => {
           type="number"
           onChange={mathematicsHandler}
           value={enterMathematics}
+          min="0"
+          max="100"
+          required
         />
       </div>
       <div className="new-expense__control">
